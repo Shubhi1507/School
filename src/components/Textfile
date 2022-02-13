@@ -15,3 +15,17 @@ TASK
 Register screen
 Fields- FN . LN . E-mail ,contact ,pswd ,cnfirmpswd 
 button , show pswd
+
+
+
+GIT 
+created repo
+diff b/w local and remote branch
+leraned the diff b/w commit for local and remote 
+linked to local repo 
+created branches   git checkout -b <branch name>
+adding files in git  "git add . " or "git add --all"
+commit files in git "git commit -m "msg""
+push files in git "git push "
+
+
