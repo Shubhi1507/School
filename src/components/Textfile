@@ -1,0 +1,17 @@
+Arrow function
+API Call
+useState
+Conditional Rendering
+function Call
+function(param)
+
+function binding will always come in constructor
+
+
+
+
+
+TASK
+Register screen
+Fields- FN . LN . E-mail ,contact ,pswd ,cnfirmpswd 
+button , show pswd
