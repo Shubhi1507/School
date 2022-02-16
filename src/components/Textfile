@@ -6,6 +6,12 @@ function Call
 function(param)
 
 function binding will always come in constructor
+Dispatcher always accepts arguments
+
+if hidestate =true ? show :hide
+
+ 
+
 
 
 
@@ -15,6 +21,8 @@ TASK
 Register screen
 Fields- FN . LN . E-mail ,contact ,pswd ,cnfirmpswd 
 button , show pswd
+Address , street , city , zipcode
+
 
 
 
