@@ -8,7 +8,7 @@ export default function Button() {
   }
   function APIHandler(id) {
     if (idState >0) {
-      fetch("https://jsonplaceholder.typicode.com/todos/" + idState)
+      fetch("https://jsonplaceholder.typicode.com/users/"+ idState)
         .then((response) => response.json())
         .then((json) => console.log(json));
     } else {

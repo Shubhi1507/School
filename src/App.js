@@ -1,26 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 import { render } from "react-dom";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Dashboard from './screen/dashboard';
 // import Button from './components/Button';
 // import EventBind from './components/EventBind';
 // import Loginscreen from './screen/Loginscreen';
-import RegistrationScreen from './screen/RegistrationScreen'
+// import RegistrationScreen from './screen/RegistrationScreen'
+// import Button from './components/Button';
+import Parent from "./components/Parent";
+// import Practice from './screen/Practice';
+// import Navbar from './screen/Navbar';
 
 function App() {
   return (
-    <div className='App'>
-    <RegistrationScreen/>
-    
-    
+    <div className="App">
+      <Parent />
     </div>
-    
-  //   <BrowserRouter>
-  //   <Routes>
-  //    <Route path="/" element={<Dashboard/>}  />
-  //   </Routes>
-  // </BrowserRouter>
+
+    //   <BrowserRouter>
+    //   <Routes>
+    //    <Route path="/" element={<Dashboard/>}  />
+    //   </Routes>
+    // </BrowserRouter>
   );
 }
 
