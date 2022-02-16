@@ -18,11 +18,11 @@ export default function Button() {
 
   return (
     <div>
-      <button onClick={() => XYZ("Shubhi")}> Click</button>
+  <button onClick={() => XYZ("Shubhi")}> Click</button> {/* Fat arrow functions */}
       <button onClick={() => APIHandler("2")}> API</button>
       <button onClick={() => SetidState(idState + 1)}>++</button>
       <button onClick={() => SetidState(idState - 1)}>--</button>
-      <p>{idState > -1 ? idState : "not required"}</p>
-    </div>
+      <p>{idState > -1 ? idState : "not required"}</p> {/* Conditional Rendering*/}
+      </div>
   );
 }

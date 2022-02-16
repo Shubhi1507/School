@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
 export default function Child(props) {
-  console.log("childProps", props);
-  var { eyes, ears, nose } = props;
+  console.log("XYZ", props);
+  var { eyes, ears, nose } = props; //Destructuring of props //
   // let [eyeState , SeteyeState] = useState(eyes)
   let [localProperties, SetlocalProperties] = useState({
     eyeState: eyes,
     noseState: nose,
-    earState: ears,
+    earState: ears,   //useState object
   });
   return (
     <div>
@@ -19,7 +19,7 @@ export default function Child(props) {
       <button
         onClick={() =>
           SetlocalProperties({
-            ...localProperties,
+            ...localProperties,   //Spread operator//
             eyeState: "green",
             noseState: "big",
           })
