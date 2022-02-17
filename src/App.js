@@ -9,6 +9,7 @@ import { render } from "react-dom";
 // import RegistrationScreen from './screen/RegistrationScreen'
 // import Button from './components/Button';
 import Parent from "./components/Parent";
+// import Child2 from "./components/Child2";
 // import Practice from './screen/Practice';
 // import Navbar from './screen/Navbar';
 
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <Parent />
+      
     </div>
 
     //   <BrowserRouter>
