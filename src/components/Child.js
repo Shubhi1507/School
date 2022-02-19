@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-export default function Child(props) {
+ function Child(props) {
   console.log("XYZ", props);
-  var { eyes, ears, nose } = props; //Destructuring of props //
+  let{ eyes, ears, nose } = props; //Destructuring of props //
   // let [eyeState , SeteyeState] = useState(eyes)
   let [localProperties, SetlocalProperties] = useState({
     eyeState: eyes,
@@ -37,3 +37,5 @@ export default function Child(props) {
     </div>
   );
 }
+export default Child ;
+

@@ -1,6 +1,7 @@
 import React from "react";
 import Child from "./Child";
 import Child2 from "./Child2";
+import ListorArray from "./ListorArray";
 
 export default function Parent() {
   let eyes = "blue";
@@ -11,7 +12,11 @@ export default function Parent() {
 
 
   return(
-    <div>
+<div>
+<ListorArray/>
+</div>
+
+  /*<div>
     <div>
      Father
       <Child eyes ={eyes} 
@@ -26,6 +31,6 @@ export default function Parent() {
      hands ={hands}
     />
     </div>
-    </div>
+    </div> */
   );
 }
