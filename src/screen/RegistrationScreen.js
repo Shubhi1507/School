@@ -9,8 +9,8 @@ function RegistrationScreen() {
   var [confirmPasswordState, SetconfirmPasswordState] = React.useState("");
   var [hideState, SethideState] = React.useState(false);
 
-  function handleRegistration(event) {
-    event.preventDefault();
+  function handleRegistration(event) { //event handling 
+    event.preventDefault(); 
     if (
       firstNameState === "" ||
       lastNameState === "" ||
@@ -42,7 +42,7 @@ function RegistrationScreen() {
     <div>
       <h1>REGISTRATION</h1>
 
-      <form onSubmit={handleRegistration}>
+      <form onSubmit={handleRegistration}> {/* Event handler*/}
         <div>
           <label>
             Enter your First name:
@@ -50,7 +50,7 @@ function RegistrationScreen() {
               required
               type="text"
               value={firstNameState}
-              onChange={(e) => SetfirstNameState(e.target.value)}
+              onChange={(e) => SetfirstNameState(e.target.value)} //on change
             />
           </label>
         </div>
@@ -115,7 +115,7 @@ function RegistrationScreen() {
         <button type="submit">LOG IN</button>
       </form>
       <button type="button" onClick={() => SethideState(!hideState)}>
-        {hideState ? "hide" : "show"}
+        {hideState ? "hide" : "show"}   {/* Inline if else Conditional operator*/}
       </button>
     </div>
   );

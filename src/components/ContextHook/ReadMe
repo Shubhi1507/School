@@ -1,0 +1,9 @@
+Created Context.js and then created a context (Examplecontext)
+Imported Examplecontext to parent (MycontextExample.js)
+In MycontextExample , provided the contextprovider to child components(ContextChild1 , ContextChild2)
+In ContextChild1 , we Imported Examplecontext via using Usecontext
+
+
+
+
+task - user info  context 

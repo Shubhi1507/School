@@ -1,16 +1,16 @@
-import React from 'react'
-function Practice() {
-const [practiceState , SetpracticeState] =  React.useState("")
-const[practiceNumber, SetpracticeNumber] = React.useState("")
+import React from "react";
 
+export default function Practice() {
+  let [okState, SetokState] = useState("");
+  let [NotokState, SetNotokState] = useState("");
 
-
-
-
+  function handleSubmit(event) {
+    event.preventDefault();
+  }
   return (
     <div>
+      <form onSubmit={handleSubmit} />
+      <div>Practice</div>
     </div>
-  )
+  );
 }
-
-export default Practice

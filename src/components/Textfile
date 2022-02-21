@@ -6,22 +6,31 @@ function Call
 function(param)
 
 function binding will always come in constructor
-Dispatcher always accepts arguments
+
+let[ashutosh ,Letashutosh] = useState('')
+Dispatcher always accepts arguments. 
+Dispatcher call is not mandatory. We can change the respective state using Dispatcher.
+Dispatcher is always unique . 
+
+
+
+
 
 if hidestate =true ? show :hide
 
  
 
+if we normally traverse for loop , i++ is used . 
+if we need to add element in array , we use push 
+We donot directly mutate state of the component 
+
+task
+remove particular element (ff)
+ create  a to-do list 
+ 
 
 
 
-
-
-TASK
-Register screen
-Fields- FN . LN . E-mail ,contact ,pswd ,cnfirmpswd 
-button , show pswd
-Address , street , city , zipcode
 
 
 
@@ -36,4 +45,5 @@ adding files in git  "git add . " or "git add --all"
 commit files in git "git commit -m "msg""
 push files in git "git push "
 
+Whenever we need to print state in JSX , we use{stateName} .
 
